@@ -255,7 +255,7 @@ type tourneyHits struct {
 	H0Temp        int16   `json:"-"`
 	HSB           int16   `json:"sliderBreaks"`
 	UnstableRate  float64 `json:"unstableRate"`
-	HitErrorArray []int32 `json:"-"`
+	HitErrorArray []int32 `json:"hitErrorArray"`
 }
 
 type ppG struct {
